@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/banks")
-public class BankAccountControllerRenamed {
+public class BankAccountController {
 
     @Autowired
     private AccountsService accountsService;
